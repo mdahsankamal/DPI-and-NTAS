@@ -134,3 +134,20 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+
+# Build artifacts
+build/
+*.exe
+*.o
+
+# PCAP files
+*.pcap
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
